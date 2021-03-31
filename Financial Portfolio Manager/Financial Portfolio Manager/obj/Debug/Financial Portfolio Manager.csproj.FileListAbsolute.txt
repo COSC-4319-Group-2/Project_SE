@@ -1,0 +1,12 @@
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\bin\Debug\Financial Portfolio Manager.exe.config
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\bin\Debug\Financial Portfolio Manager.exe
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\bin\Debug\Financial Portfolio Manager.pdb
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial Portfolio Manager.csprojAssemblyReference.cache
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial_Portfolio_Manager.Form1.resources
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial_Portfolio_Manager.Properties.Resources.resources
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial Portfolio Manager.csproj.GenerateResource.cache
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial Portfolio Manager.csproj.CoreCompileInputs.cache
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial Portfolio Manager.exe
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial Portfolio Manager.pdb
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial_Portfolio_Manager.Form2.resources
+C:\Users\Zeshan\source\repos\Financial Portfolio Manager\Financial Portfolio Manager\obj\Debug\Financial_Portfolio_Manager.Form3.resources
