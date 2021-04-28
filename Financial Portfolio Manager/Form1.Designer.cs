@@ -42,6 +42,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -60,6 +62,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(116, 21);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -67,6 +70,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(116, 21);
             this.textBox2.TabIndex = 2;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label1
             // 
@@ -89,17 +93,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(544, 88);
+            this.label3.Location = new System.Drawing.Point(544, 83);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 16);
+            this.label3.Size = new System.Drawing.Size(76, 16);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Full Name:";
+            this.label3.Text = "First Name:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(544, 143);
+            this.label4.Location = new System.Drawing.Point(544, 184);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 16);
             this.label4.TabIndex = 6;
@@ -108,7 +112,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(544, 198);
+            this.label5.Location = new System.Drawing.Point(544, 231);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 16);
             this.label5.TabIndex = 7;
@@ -118,7 +122,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(544, 255);
+            this.label6.Location = new System.Drawing.Point(544, 279);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 16);
             this.label6.TabIndex = 8;
@@ -131,20 +135,23 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(116, 21);
             this.textBox3.TabIndex = 10;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(659, 135);
+            this.textBox4.Location = new System.Drawing.Point(659, 179);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(116, 21);
             this.textBox4.TabIndex = 11;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(659, 190);
+            this.textBox5.Location = new System.Drawing.Point(659, 231);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(116, 21);
             this.textBox5.TabIndex = 12;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // comboBox1
             // 
@@ -160,7 +167,7 @@
             "7",
             "8",
             "9"});
-            this.comboBox1.Location = new System.Drawing.Point(659, 246);
+            this.comboBox1.Location = new System.Drawing.Point(659, 279);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(48, 23);
             this.comboBox1.TabIndex = 13;
@@ -168,7 +175,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(659, 321);
+            this.button2.Location = new System.Drawing.Point(659, 368);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(117, 27);
             this.button2.TabIndex = 14;
@@ -176,12 +183,31 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(544, 134);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(76, 16);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Last Name:";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(658, 134);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(117, 21);
+            this.textBox6.TabIndex = 16;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(933, 519);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox5);
@@ -221,6 +247,8 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
 
