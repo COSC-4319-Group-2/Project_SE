@@ -83,6 +83,11 @@ namespace Financial_Portfolio_Manager
             Signin_PW = textBox2.Text;
         }
 
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
             textBox5.PasswordChar='*';
