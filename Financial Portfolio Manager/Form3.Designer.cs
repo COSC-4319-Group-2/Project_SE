@@ -87,6 +87,7 @@
             // button1
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(141, 261);
@@ -135,23 +136,23 @@
             this.panel1.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.panel1.Location = new System.Drawing.Point(-7, -17);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(420, 26);
+            this.panel1.Size = new System.Drawing.Size(420, 25);
             this.panel1.TabIndex = 8;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.panel2.Location = new System.Drawing.Point(-7, 371);
+            this.panel2.Location = new System.Drawing.Point(-7, 372);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(439, 16);
+            this.panel2.Size = new System.Drawing.Size(439, 15);
             this.panel2.TabIndex = 9;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.panel3.Location = new System.Drawing.Point(366, 4);
+            this.panel3.Location = new System.Drawing.Point(368, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(36, 380);
+            this.panel3.Size = new System.Drawing.Size(34, 380);
             this.panel3.TabIndex = 10;
             // 
             // panel4
@@ -159,7 +160,7 @@
             this.panel4.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.panel4.Location = new System.Drawing.Point(-4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(15, 391);
+            this.panel4.Size = new System.Drawing.Size(11, 391);
             this.panel4.TabIndex = 11;
             // 
             // Form3
