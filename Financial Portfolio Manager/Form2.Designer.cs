@@ -73,7 +73,7 @@
             this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(124, 442);
+            this.label4.Location = new System.Drawing.Point(91, 441);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(170, 20);
             this.label4.TabIndex = 4;
@@ -151,7 +151,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(298, 442);
+            this.label1.Location = new System.Drawing.Point(265, 441);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 20);
             this.label1.TabIndex = 11;
@@ -169,17 +169,17 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.panel3.Location = new System.Drawing.Point(921, -10);
+            this.panel3.Location = new System.Drawing.Point(924, -10);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(24, 526);
+            this.panel3.Size = new System.Drawing.Size(21, 526);
             this.panel3.TabIndex = 27;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.panel2.Location = new System.Drawing.Point(-15, 508);
+            this.panel2.Location = new System.Drawing.Point(-15, 511);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(963, 11);
+            this.panel2.Size = new System.Drawing.Size(963, 21);
             this.panel2.TabIndex = 28;
             // 
             // panel1
@@ -195,7 +195,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 26);
+            this.pictureBox1.Location = new System.Drawing.Point(26, 31);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(35, 35);
             this.pictureBox1.TabIndex = 25;
@@ -218,7 +218,7 @@
             this.panel5.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.panel5.Location = new System.Drawing.Point(-15, -10);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(970, 19);
+            this.panel5.Size = new System.Drawing.Size(970, 18);
             this.panel5.TabIndex = 30;
             // 
             // label9
